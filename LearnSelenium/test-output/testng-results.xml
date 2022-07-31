@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-17T11:42:13 IST" name="Test Suite" finished-at="2022-07-17T11:42:17 IST" duration-ms="4200">
+    <groups>
+    </groups>
+    <test started-at="2022-07-17T11:42:13 IST" name="Test Case" finished-at="2022-07-17T11:42:17 IST" duration-ms="4200">
+      <class name="testNG.priorotyAndSkipTC">
+        <test-method signature="firstTC()[pri:1, instance:testNG.priorotyAndSkipTC@79da8dc5]" started-at="2022-07-17T11:42:13 IST" name="firstTC" finished-at="2022-07-17T11:42:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTC -->
+        <test-method signature="secondTC()[pri:1, instance:testNG.priorotyAndSkipTC@79da8dc5]" started-at="2022-07-17T11:42:13 IST" name="secondTC" finished-at="2022-07-17T11:42:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTC -->
+        <test-method signature="fourthTC()[pri:3, instance:testNG.priorotyAndSkipTC@79da8dc5]" started-at="2022-07-17T11:42:13 IST" name="fourthTC" finished-at="2022-07-17T11:42:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTC -->
+      </class> <!-- testNG.priorotyAndSkipTC -->
+      <class name="testNG.dependencieManagement">
+        <test-method signature="highschool()[pri:0, instance:testNG.dependencieManagement@51f116b8]" started-at="2022-07-17T11:42:13 IST" name="highschool" finished-at="2022-07-17T11:42:13 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highschool -->
+        <test-method signature="higherSecondary()[pri:0, instance:testNG.dependencieManagement@51f116b8]" started-at="2022-07-17T11:42:13 IST" name="higherSecondary" finished-at="2022-07-17T11:42:13 IST" depends-on-methods="testNG.dependencieManagement.highschool" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- higherSecondary -->
+        <test-method signature="engineering()[pri:0, instance:testNG.dependencieManagement@51f116b8]" started-at="2022-07-17T11:42:13 IST" name="engineering" finished-at="2022-07-17T11:42:13 IST" depends-on-methods="testNG.dependencieManagement.higherSecondary" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineering -->
+      </class> <!-- testNG.dependencieManagement -->
+      <class name="testNG.suiteExample">
+        <test-method is-config="true" signature="beforeTC()[pri:0, instance:testNG.suiteExample@d29f28]" started-at="2022-07-17T11:42:11 IST" name="beforeTC" finished-at="2022-07-17T11:42:13 IST" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTC -->
+        <test-method signature="openGoogle()[pri:0, instance:testNG.suiteExample@d29f28]" started-at="2022-07-17T11:42:13 IST" name="openGoogle" finished-at="2022-07-17T11:42:15 IST" duration-ms="2917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+        <test-method signature="openbing()[pri:0, instance:testNG.suiteExample@d29f28]" started-at="2022-07-17T11:42:15 IST" name="openbing" finished-at="2022-07-17T11:42:16 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbing -->
+        <test-method signature="openfaceboook()[pri:0, instance:testNG.suiteExample@d29f28]" started-at="2022-07-17T11:42:16 IST" name="openfaceboook" finished-at="2022-07-17T11:42:17 IST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openfaceboook -->
+        <test-method is-config="true" signature="afterTC()[pri:0, instance:testNG.suiteExample@d29f28]" started-at="2022-07-17T11:42:17 IST" name="afterTC" finished-at="2022-07-17T11:42:17 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTC -->
+      </class> <!-- testNG.suiteExample -->
+    </test> <!-- Test Case -->
+  </suite> <!-- Test Suite -->
+</testng-results>
